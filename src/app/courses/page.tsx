@@ -6,7 +6,7 @@ import grades from "@/libs/data/grades.json"
 export default function Courses() {
     return (
         <>
-            <HeroBanner source="DTUBygning101.jpg" width={1000} height={400}>
+            <HeroBanner source="cover_03.jpg" width={1920} height={600}>
                 <HeroTitle text="A complete list of the courses i have taken at dtu"/>
             </HeroBanner>
             <GradeTableContainer>

@@ -1,0 +1,38 @@
+{
+    "nav_links": [
+        {
+            "path": "/",
+            "name": "Home"
+        },
+        {
+            "path": "/projects",
+            "name": "Projects"
+        },
+        {
+            "path": "/courses",
+            "name": "Courses"
+        },
+        {
+            "path": "/files/CV.pdf",
+            "name": "Resumé",
+            "target": "_blank"
+        }
+    ],
+    "social_links": [
+        { 
+            "path": "https://github.com/magn3144", 
+            "icon": "github.png", 
+            "alt": "GitHub"
+        },
+        { 
+            "path": "https://play.unity.com/en/user/bfaa1667-93e1-492d-9460-e1cc37baaea5", 
+            "icon": "unity.png",
+            "alt": "Unity"
+        },
+        { 
+            "path": "https://www.linkedin.com/in/magn3144", 
+            "icon": "linkedin.png",
+            "alt": "LinkedIn"
+        }
+    ]
+}

@@ -5,7 +5,7 @@ import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 
-const ibmPlexMono = IBM_Plex_Mono({ weight: "300" })
+const IBM_PLEX_MONO = IBM_Plex_Mono({ weight: "300" })
 
 export const metadata: Metadata = {
     title: "Personlig Hjemmeside",
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
     return (
         <html lang="en">
-            <body className={`${ibmPlexMono.className} antialiased`}>
+            <body className={`${IBM_PLEX_MONO.className} antialiased`}>
                 <Header />
-                <main>{children}</main>
+                <main children={children}/>
                 <Footer />
             </body>
         </html>
