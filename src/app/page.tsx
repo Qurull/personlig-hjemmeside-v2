@@ -6,7 +6,7 @@ import educations from "@/libs/data/educations.json"
 
 export default function Home() {
     return <>
-        <HeroBanner source="cover_01.jpg" width={1920} height={600}>
+        <HeroBanner source="cover_01.jpg">
             <HeroTitle text="Welcome to my portfolio. I do data-science, machine learning, programming and game development"/>
         </HeroBanner>
         <article className="flex flex-col sm:grid grid-cols-[450px_1px_1fr] grid-rows-2 items-center gap-6 sm:gap-12 bg-pattern-200 text-2xl sm:text-3xl text-center sm:text-start uppercase p-8 sm:p-18">

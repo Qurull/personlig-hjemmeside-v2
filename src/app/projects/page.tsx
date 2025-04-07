@@ -11,7 +11,7 @@ export default function Projects() {
 
     return (
         <>
-            <HeroBanner source="cover_02.png" width={1920} height={600}>
+            <HeroBanner source="cover_02.png">
                 <HeroTitle text="I have made machine learning, game development and various other programming projects"/>
             </HeroBanner>
             <section className="px-8 sm:px-64 py-6 sm:py-24 text-center sm:text-left uppercase">
