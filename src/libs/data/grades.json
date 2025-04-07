@@ -1,0 +1,247 @@
+[
+    {
+        "name": "Introduction to intelligent systems",
+        "grade": 7,
+        "ects": 10,
+        "semester": "Bachelor - 1",
+        "id": "02461"
+    },
+    {
+        "name": "Discrete Mathematics",
+        "grade": 10,
+        "ects": 5,
+        "semester": "Bachelor - 1",
+        "id": "01017"
+    },
+    {
+        "name": "Introduction to programming and data processing",
+        "grade": 12,
+        "ects": 5,
+        "semester": "Bachelor - 1",
+        "id": "02631"
+    },
+    {
+        "name": "Introduction to mathematical statistics",
+        "grade": 10,
+        "ects": 5,
+        "semester": "Bachelor - 2",
+        "id": "02403"
+    },
+    {
+        "name": "Advanced engineering mathematics 1",
+        "grade": 10,
+        "ects": 20,
+        "semester": "Bachelor - 2",
+        "id": "01005"
+    },
+    {
+        "name": "Signals and data",
+        "grade": 12,
+        "ects": 5,
+        "semester": "Bachelor - 2",
+        "id": "02462"
+    },
+    {
+        "name": "Artificial intelligence and human cognition",
+        "grade": "BE",
+        "ects": 5,
+        "semester": "Bachelor - 2",
+        "id": "02464"
+    },
+    {
+        "name": "Algorithms and Data Structures 1",
+        "grade": 12,
+        "ects": 5,
+        "semester": "Bachelor - 2",
+        "id": "02105"
+    },
+    {
+        "name": "Fundamental chemistry in English",
+        "grade": 10,
+        "ects": 5,
+        "semester": "Bachelor - 3",
+        "id": "26028"
+    },
+    {
+        "name": "UX Design Prototyping",
+        "grade": 12,
+        "ects": 5,
+        "semester": "Bachelor - 3",
+        "id": "02809"
+    },
+    {
+        "name": "Project in Statistical Evaluation for Artificial Intelligence and Data",
+        "grade": 10,
+        "ects": 5,
+        "semester": "Bachelor - 3",
+        "id": "02445"
+    },
+    {
+        "name": "Advanced Engineering Mathematics 2",
+        "grade": 4,
+        "ects": 5,
+        "semester": "Bachelor - 3",
+        "id": "01035"
+    },
+    {
+        "name": "Introduction to machine learning and data mining",
+        "grade": 10,
+        "ects": 5,
+        "semester": "Bachelor - 3",
+        "id": "02450"
+    },
+    {
+        "name": "Physics 1",
+        "grade": 10,
+        "ects": 10,
+        "semester": "Bachelor - 4",
+        "id": "10024"
+    },
+    {
+        "name": "Internet of things - application and infrastructure implementation",
+        "grade": 10,
+        "ects": 5,
+        "semester": "Bachelor - 4",
+        "id": "34315"
+    },
+    {
+        "name": "Active machine learning and agency",
+        "grade": 10,
+        "ects": 5,
+        "semester": "Bachelor - 4",
+        "id": "02463"
+    },
+    {
+        "name": "Project work - Bachelor of Artificial Intelligence and Data",
+        "grade": 12,
+        "ects": 10,
+        "semester": "Bachelor - 4",
+        "id": "02466"
+    },
+    {
+        "name": "Introduction to reinforcement learning and control",
+        "grade": 10,
+        "ects": 5,
+        "semester": "Bachelor - 4",
+        "id": "02465"
+    },
+    {
+        "name": "Theory of science in engineering",
+        "grade": "BE",
+        "ects": 5,
+        "semester": "Bachelor - 5",
+        "id": "42611"
+    },
+    {
+        "name": "Udvekslingsophold - Sungkyunkwan University (SKKU)",
+        "grade": "BE",
+        "ects": 17,
+        "semester": "Bachelor - 5",
+        "id": ""
+    },
+    {
+        "name": "Symbolic Artificial Intelligence",
+        "grade": 7,
+        "ects": 5,
+        "semester": "Bachelor - 6",
+        "id": "02182"
+    },
+    {
+        "name": "Image analysis",
+        "grade": 10,
+        "ects": 5,
+        "semester": "Bachelor - 6",
+        "id": "02502"
+    },
+    {
+        "name": "Database systems",
+        "grade": 12,
+        "ects": 5,
+        "semester": "Bachelor - 6",
+        "id": "02170"
+    },
+    {
+        "name": "Large language models for collecting structured information (Bachelor Project)",
+        "grade": 10,
+        "ects": 15,
+        "semester": "Bachelor - 7",
+        "id": ""
+    },
+    {
+        "name": "Machine learning operations",
+        "grade": "BE",
+        "ects": 5,
+        "semester": "Bachelor - 7",
+        "id": "02476"
+    },
+    {
+        "name": "Introduction to numerical algorithms",
+        "grade": 12,
+        "ects": 5,
+        "semester": "Bachelor - 7",
+        "id": "02610"
+    },
+    {
+        "name": "Bayesian Machine Learning",
+        "grade": "-",
+        "ects": 5,
+        "semester": "Masters - 1",
+        "id": "02477"
+    },
+    {
+        "name": "Computer vision",
+        "grade": "-",
+        "ects": 5,
+        "semester": "Masters - 1",
+        "id": "02504"
+    },
+    {
+        "name": "Geometric data analyses and processing",
+        "grade": "-",
+        "ects": 5,
+        "semester": "Masters - 1",
+        "id": "02580"
+    },
+    {
+        "name": "Special Course in neural ODEs",
+        "grade": "-",
+        "ects": 5,
+        "semester": "Masters - 1",
+        "id": "-"
+    },
+    {
+        "name": "Innovation in engineering",
+        "grade": "BE",
+        "ects": 5,
+        "semester": "Masters - 1",
+        "id": "42501"
+    },
+    {
+        "name": "Computational Tools for Data Science",
+        "grade": "-",
+        "ects": 5,
+        "semester": "Masters - 2",
+        "id": "02807"
+    },
+    {
+        "name": "Machine learning for signal processing",
+        "grade": "-",
+        "ects": 5,
+        "semester": "Masters - 2",
+        "id": "02471"
+    },
+    {
+        "name": "Computational Tools for Data Science",
+        "grade": "-",
+        "ects": 5,
+        "semester": "Masters - 2",
+        "id": "02807"
+    },
+    {
+        "name": "High-Performance Computing",
+        "grade": "-",
+        "ects": 5,
+        "semester": "Masters - 2",
+        "id": "02614"
+    }
+]
