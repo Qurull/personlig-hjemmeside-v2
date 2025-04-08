@@ -20,7 +20,7 @@ export default function Projects() {
             </section>
             {Object.entries(projects).map((category, categoryId) => (
                 <ProjectGroupContainer key={categoryId} title={category[0]}>
-                    {category[1].map((project, projectId) => <ProjectGroupItem key={projectId} {...project} onOpen={setIsOpen} onSelect={setSelected}/>)}
+                    {category[1].map((project, projectId) => <ProjectGroupItem key={projectId} item={project} onOpen={setIsOpen} onSelect={setSelected}/>)}
                 </ProjectGroupContainer>
             ))}
             <ProjectGroupModal isOpen={isOpen} onClose={setIsOpen} selected={selected}/>

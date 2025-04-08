@@ -5,3 +5,7 @@
     --color-pattern-200: #d0d8ff;
     --color-opacity-50: rgba(0, 0, 0, 0.75);
 }
+
+@utility untruncate {
+    @apply overflow-hidden whitespace-normal text-clip;
+}

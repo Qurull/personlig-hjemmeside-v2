@@ -21,7 +21,8 @@ interface ProjectGroupProps {
     title: string;
 }
 
-interface ProjectGroupItemProps extends IProjectItem {
+interface ProjectGroupItemProps {
+    item: IProjectItem;
     onOpen: React.Dispatch<boolean>;
     onSelect: React.Dispatch<IProjectItem>;
 }
@@ -43,23 +44,23 @@ export function ProjectGroupContainer({ title, children }: Readonly<ProjectGroup
     )
 }
 
-export function ProjectGroupItem({ image, name, date, description, links, onOpen, onSelect }: Readonly<ProjectGroupItemProps>) {
+export function ProjectGroupItem({ item, onOpen, onSelect }: Readonly<ProjectGroupItemProps>) {
     const handleClick = () => {
-        onSelect({ image, name, date, description, links })
+        onSelect(item)
         onOpen(true)
     }
     
     return (
         <li className="overflow-hidden aspect-square" onClick={handleClick}>
-            <section className="relative size-full uppercase hover:-translate-y-[196px] duration-400 transition-transform cursor-pointer">
+            <section className="relative size-full uppercase hover:-translate-y-3/6 duration-400 transition-transform cursor-pointer">
                 <section className="relative size-full">
-                    <Image className="object-cover size-full" src={`/images/thumbnails/${image}`} width={512} height={512} alt="..." unoptimized/>
-                    <h3 className="absolute bg-black text-white text-sm sm:text-2xl text-center font-bold truncate sm:overflow-visible sm:whitespace-normal sm:text-clip h-fit inset-0 m-auto p-2">{name}</h3>
+                    <Image className="object-cover size-full" src={`/images/thumbnails/${item.image}`} width={512} height={512} alt="..." unoptimized/>
+                    <h3 className="absolute bg-black text-white text-sm sm:text-2xl text-center font-bold truncate sm:untruncate h-fit inset-0 m-auto p-2">{item.name}</h3>
                 </section>
                 <section className="flex flex-col gap-y-6 text-center px-6 py-6">
-                    <h2 className="text-xl font-bold">{name}</h2>
-                    <p>{date}</p>
-                    <p>{description.slice(0, 100)}...</p>
+                    <h2 className="text-xl font-bold">{item.name}</h2>
+                    <p>{item.date}</p>
+                    <p>{item.description.slice(0, 100)}...</p>
                 </section>
             </section>
         </li>
