@@ -22,7 +22,7 @@ interface GradeTableHeadProps {
 
 export function GradeTableContainer({ children }: Readonly<BaseProps>) {
     return (
-        <table className="relative flex flex-col text-right w-full p-4 sm:p-24 uppercase">
+        <table className="relative flex flex-col text-right w-full p-4 lg:p-24 uppercase">
             {children}
         </table>
     )

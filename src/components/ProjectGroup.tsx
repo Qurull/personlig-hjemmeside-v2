@@ -2,6 +2,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Modal } from "./Modal"
+import { useCallback } from "react";
 
 export interface IProjectItem {
     image: string;
@@ -45,10 +46,10 @@ export function ProjectGroupContainer({ title, children }: Readonly<ProjectGroup
 }
 
 export function ProjectGroupItem({ item, onOpen, onSelect }: Readonly<ProjectGroupItemProps>) {
-    const handleClick = () => {
+    const handleClick = useCallback(() => {
         onSelect(item)
         onOpen(true)
-    }
+    }, [item])
     
     return (
         <li className="overflow-hidden aspect-square" onClick={handleClick}>
@@ -72,9 +73,9 @@ export function ProjectGroupModal({ isOpen, onClose, selected }: Readonly<Projec
         <Modal isOpen={isOpen} onClose={onClose}>
             <section className={`relative transition-all duration-300 delay-150 ${isOpen ? "h-[300px]" : "h-[600px]"}`}>
                 <Image className="object-cover size-full" src={`/images/thumbnails/${selected?.image}`} width={1000} height={300} alt="..." unoptimized/>
-                <h2 className="absolute bg-black text-white text-xl sm:text-4xl text-center font-bold uppercase size-fit inset-0 px-4 py-2 m-auto">{selected?.name}</h2>
+                <h2 className="absolute bg-black text-white text-xl lg:text-4xl text-center font-bold uppercase size-fit inset-0 px-4 py-2 m-auto">{selected?.name}</h2>
             </section>
-            <section className="flex flex-col gap-y-6 p-6 sm:p-12">
+            <section className="flex flex-col gap-y-6 p-6 lg:p-12">
                 <ul className="flex gap-x-4">
                     {selected?.links.map((link, index) => <ProjectGroupLink key={index} {...link}/>)}
                 </ul>
